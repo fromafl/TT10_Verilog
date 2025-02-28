@@ -32,7 +32,7 @@ module tt_um_project (
         end else if (uio_in[0] == 1) begin
                 reg_shift = ui_in;
         end else begin
-                 reg_shift = {reg_shift[6:0],0};
+                 reg_shift = {reg_shift[6:0],1'b0};
         end
     end
 endmodule
