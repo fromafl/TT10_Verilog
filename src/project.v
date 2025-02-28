@@ -29,7 +29,7 @@ module tt_um_project (
     always @(posedge clk) begin
         if (rst_n ==0) begin 
             reg_shift = 8'b00000000;
-            else if (uio_in(0) == 1) begin
+            else if (uio_in[0] == 1) begin
                 reg_shift = ui_in;
              else begin
                  reg_shift = {reg_shift[6:0],0};
