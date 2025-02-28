@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Shift left on CLK and output it on the output and read in new Date when uio[0] is 1
 
 ## How to test
 
-Explain how to use your project
+setup a 8 bit indbut. and set uio[0] high then whathc the output as se it shift.
 
 ## External hardware
+None wher used
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
